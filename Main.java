@@ -27,7 +27,7 @@ public class Main {
     
         Pizza pizza4 = new Pizza("Cheesey Madness", 8, "Cheese");
         System.out.println("\npizza3 after parameterized constructor: ");
-        System.out.println("title = " + pizza4.getTitle() + ", cost = " + pizza4.getCost() + ", topping = " + pizza3.getTopping());
+        System.out.println("title = " + pizza4.getTitle() + ", cost = " + pizza4.getCost() + ", topping = " + pizza4.getTopping());
 
 
         System.out.println("\nPrinting objects after overriding to String():");
@@ -35,6 +35,7 @@ public class Main {
         System.out.println("pizza3 = " + pizza3);
 
         // Directly mutating public fields
+        //Edited this in compliance with changing public to private
         System.out.println("\nMutating public fields directly: ");
         pizza3.setCost(12);
         pizza3.setTitle("Combination");
