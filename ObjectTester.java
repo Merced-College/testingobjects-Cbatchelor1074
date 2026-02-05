@@ -4,7 +4,7 @@
 // This is my Object Testing class for my Pizza and Dog objects.
 
 
-public class ObjectTester {
+public class Main {
     public static void main(String[] args) {
         
         // A1: Initalizes object with no defined constructor.
