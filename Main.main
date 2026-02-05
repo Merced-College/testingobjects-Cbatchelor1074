@@ -1,0 +1,4 @@
+Pizza pizza1 = new Pizza();
+
+System.out.println("Printing dog1 directly:");
+System.out.println(dog1);
